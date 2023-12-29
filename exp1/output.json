@@ -1,0 +1,22 @@
+{
+  "userStorySerialNumber": 1,
+  "classes": [
+    "Borrower",
+    "Database"
+  ],
+  "attributes": [
+    "Title"
+  ],
+  "relationships": [
+    {
+      "subject": "Borrower",
+      "predicate": "search",
+      "object": "Title"
+    },
+    {
+      "subject": "Borrower",
+      "predicate": "checkExists",
+      "object": "Database"
+    }
+  ]
+}
